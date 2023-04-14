@@ -1,0 +1,61 @@
+.fondo {
+  background-image: url("http://www.danieleliberti.org/wp-content/uploads/2014/08/20140819_backgroundk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.encabezado {
+  font-family: Consolas;
+  font-size: 25px;
+  text-align: center;
+  background-color: brown;
+  color: bisque;
+  height: auto;
+  padding: 0.5%;
+  margin: 10px;
+}
+
+.tabla {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    border-style: none;
+    border-radius: 15px;
+  }
+
+.boton {
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: green;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  border: 3px solid black;
+  text-align: center;
+  box-shadow: -5px 1px 3px 0px rgb(248, 70, 0);
+  margin: 30px;
+}
+
+.footer {
+  font-family: Consolas;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-color: coral;
+  width: 100%;
+  height: auto;
+  padding: 0.2%;
+}
+
+.titulos{
+    font-family: Consolas;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}

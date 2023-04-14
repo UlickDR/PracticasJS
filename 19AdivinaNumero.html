@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio19</title>
+    <link rel="stylesheet" href="EstilosCSS/Ejercicio19.css">
+    <link rel="stylesheet" href="EstilosCSS/Estilos.css">
+  </head>
+  <body>
+    <h1>Juego de Adivina n&uacute;mero</h1>
+    <p>Se ha generado un valor de entre 1 y 100. Vea si puede adivinarlo en 10 turnos o menos. Le diremos si su estimación fue demasiado alta o demasiado baja.</p>
+    <div class="form">
+      <label for="campoAdivina">Ingrese el valor que piensa: </label>
+      <input type="text" id="campoAdivina" class="campoAdivina">
+      <input type="submit" value="Adivina" class="adivinaSubmit">
+    </div>
+    <div class="resultParas">
+      <p class="adivinanzas"></p>
+      <p class="ultimoResultado"></p>
+      <p class="bajoOAlto"></p>
+    </div>
+    <button id="resetButton" class="resetButton" style="display:none;">Iniciar nuevo Juego</button>
+    <script src="JavaScripts/Ejercicio19.js"></script>
+    <p><a href="index.html"><button class="boton">Regresar a inicio</button></a></p>
+  <div class="footer">
+    <footer>
+      <h1>©Copyright Equipo 2</h1>
+    </footer>
+  </div>
+  </body>
+</html>

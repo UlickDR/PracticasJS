@@ -1,0 +1,50 @@
+body {
+    background-image: url(patron3.jpg)
+}
+button[type="button"] {
+    background-color: #fffd9a;
+    color: rgb(17, 13, 13);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+   
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }  
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    @keyframes moverTexto {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(20px); }
+      100% { transform: translateX(0); }
+    }
+  
+  #resultado {
+      animation: moverTexto 1s ease-in-out infinite;
+      font-size: 24px;
+      color: rgb(255, 252, 72);
+    }
+
+    #resultados {
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+      }
+      #resultadoss {
+        font-size: 24px;
+        color: rgb(244, 247, 62);
+      }
+    
